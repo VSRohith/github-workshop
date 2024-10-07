@@ -1,0 +1,34 @@
+ A. BASICS :
+
+1. Git download
+2. Open command prompt and type git
+3. git config --global username " "
+4. git config --global email  " "
+5. close
+
+B. Cloning repo to vscode: (dont use readme )
+
+1. Create new repo in github
+2. copy the repo link
+3. open vscode , create main folder and sub folder. 
+4. open terminal,use cd to change folder if needed and type - git clone link
+5. git add filename
+6. git commit -m " "
+7. git push origin main  
+// git push if you created a file in git repo and want to add it to vscode
+
+C. Creating folder and files in vscode and adding it to github : (dont use readme )
+
+1. Create a  main folder and sub folder
+2. open terminal use cd to change folder
+3. git init -- to create empty git repo
+4. git add filename
+5. git commit -m " "
+6. Use git status often
+7. use git branch to chech the branch 
+8. Create a new repo in git hub and copy the link
+9. In vscode terminal , type git remote add origin link
+10. then , git push origin main
+
+D. Branching :
+
